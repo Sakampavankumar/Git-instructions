@@ -16,7 +16,7 @@
 
 ![windowcheckbox](3rd.PNG)
 
-* Check with **_use window's default console window_** and click **next**
+* Check with **_use MinTTY_** and click **next**
 
 ![checkboxlast](4th.PNG)
 
