@@ -9,3 +9,5 @@
 * **Contributor - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
 
 * **Contributor - [Ishan Vaid](https://github.com/Ishanvaid9)**
+
+* **Contributor - [Rohit Malhotra](https://github.com/rohitmalhotra1420)**
