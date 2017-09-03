@@ -2,7 +2,7 @@
 
 **Initiated and Started By - [Sant](https://github.com/santk97)**
 
-* **Contributed By - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
+* **Contributed And Designed By - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
 
 * **Contributed By - [Ishan Vaid](https://github.com/Ishanvaid9)**
 
