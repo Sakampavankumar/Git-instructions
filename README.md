@@ -1,13 +1,14 @@
-# **GIT INSTRUCTIONS**
+# **GIT DOCUMENTATION AND INSTALLATION INSTRUCTIONS..**
 
-**The main file is the [_git.md_](git.md) File.(Open it for the details)
+**To Get Complete Details Click [_git.md_](git.md) File.(For the Brief and Installation Guide For Git And Github.)**
+
+## *U can Follow us On Github, Profile Links are Added Below.*
 
 
+**Initiated and Started By - [Sant](https://github.com/santk97)**
 
-**Author - [Sant](https://github.com/santk97)**
+* **Contributed By - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
 
-* **Contributor - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
+* **Contributed By - [Ishan Vaid](https://github.com/Ishanvaid9)**
 
-* **Contributor - [Ishan Vaid](https://github.com/Ishanvaid9)**
-
-* **Contributor - [Rohit Malhotra](https://github.com/rohitmalhotra1420)**
+* **Contributed By - [Rohit Malhotra](https://github.com/rohitmalhotra1420)**
