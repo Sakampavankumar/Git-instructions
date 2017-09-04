@@ -4,7 +4,7 @@ Git is a version control system (VCS). Git is a tool/software like your IDE or V
 * Image of the **_Linus Trovaldus_** Is Shown Below.
 
  * ( He is the Creator, and for a long time, principal developer of the Linux kernel, which became the kernel for operating systems such as the Linux operating system, Android, and Chrome OS. **He also created the distributed revision control system Git**)
-![LinusTrovaldus](Linus trovalds.jpg)
+![LinusTrovaldus](Linustrovalds.jpg)
 
 # What Git Does ??
 There are two main Reasons to Learn GIT.
