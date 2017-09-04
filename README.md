@@ -1,6 +1,6 @@
 # **GIT & GITHUB DOCUMENTATION AND INSTALLATION INSTRUCTIONS..**
 
-**Initiated and Started By - [Sant](https://github.com/santk97)**
+**Initiated and Started By - [Sant Kumar Sharma](https://github.com/santk97)**
 
 * **Contributed And Designed By - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
 
