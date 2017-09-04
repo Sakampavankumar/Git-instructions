@@ -1,6 +1,12 @@
 # What is Git ??
 Git is Created by **_Linus Trovaldus_**.(responsible for the linux kernel.)
 Git is a version control system (VCS). Git is a tool/software like your IDE or VLC player. It is not a programming language.It is a general tool.Chances For Hiring In a Company will be increased When u Mentioned Git ON ur Resumes.
+* Image of the **_Linus Trovaldus_** Is Shown Below.
+
+ * ( He is the Creator, and for a long time, principal developer of the Linux kernel, which became the kernel for operating systems such as the Linux operating system, Android, and Chrome OS. **He also created the distributed revision control system Git**)
+
+![Linus Trovaldus](Linus trovalds.jpg)
+
 # What Git Does ??
 There are two main Reasons to Learn GIT.
 1. Track changes to your code .
