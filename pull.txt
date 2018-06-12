@@ -1,0 +1,9 @@
+git pull origin master will pull changes from the origin remote, master branch and merge them to the local checked-out branch.
+
+
+Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy.
+To save and quit:
+If you are currently in insert or append mode, press Esc key.
+Press: (semi-colon) The cursor should reappear at the lower left corner of the screen beside a colon prompt.
+Enter the following command (type wq! and press Enter key).
+:)
