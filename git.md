@@ -120,7 +120,7 @@ git add .
 
 ![git add . ](git6.PNG)
 
-8 . Once we have added the files in repo, the next thing we need to do is commit these changes By using `git commit` command and provide a message with commit .Commits are like check points or versions of your software.Even a new single line added to your code can count as a new version.So after you add the file you need to do a commit to make a version out of it.
+8 . Once we have added the files in repo, the next thing we need to do is commit these changes By using `git commit` command and provide a message with commit .Commits are like check points or versions of your software.Even a new single line added to your code can count as a new version.So after you add the file you need to do a commit to make a version out of it.	Commit changes to head (but not yet to the remote repository):
 Let's create the first commit or first version of our project:
 ```python
 
@@ -140,7 +140,7 @@ git commit -m "your commit message"
  ![github link](git8.PNG)
  **Copy the blue highlighted part**
 
-10 . Next we will use the HTTPS Url Link to Map or to Link our Local Repository to Remote Repository.
+10 .If you haven't connected your local repository to a remote server, add the server to be able to push to it: For this we will use the HTTPS Url Link to Map or to Link our Local Repository to Remote Repository.
 
 *11*. For that we will use `git remote add origin 'paste your copied URI Link here'` command.
 ```python
@@ -150,7 +150,9 @@ git remote add origin 'paste that Copied Link here'
 
 ![git remote add](git9.PNG)
 
-12 . The last step is to **_push_** the Project Files to the Remote repository.And For that We will use `git push origin master` command. **Note :- At this Stage you must have internet connection connected with your system otherwise it will throw an error _host could not resolved_ so make sure net has connected.**
+12 . The last step is to **_push_** the Project Files to the Remote repository.And For that We will use `git push origin master` command. It Sends changes to the master branch of your remote repository:
+
+**Note :- At this Stage you must have internet connection connected with your system otherwise it will throw an error _host could not resolved_ so make sure net has connected.**
   ```python
 
 git push origin master
@@ -186,7 +188,8 @@ git log #tells the log of your commits
 ```
 ![gitlog](gitlog.PNG)
 
-*2*.`git status` it is a very useful command which tells us the status of the file which is being tracked(added)or not.The command tells you the current state of your project. It is like a report card of your project.
+*2*.`git status` it Lists the files you've changed and those you still need to add or commit:
+it is a very useful command which tells us the status of the file which is being tracked(added)or not.The command tells you the current state of your project. It is like a report card of your project.
 You will discover more about it as you start using git more and more.
 ```python
 
@@ -212,3 +215,27 @@ git status # used to know the status of the files being tracked or not
 * `git log` - See commit/version history of the project
 * `git remote add origin 'Paste your link for remote repo here'` to add the link btw remote repo and local repo.
 * `git push origin master` - To push your code ,your project project file to Remote repo from local repo.
+
+## Additional Commands (Branching , Cloning , Merging Pull Requests)..
+
+* `git clone /path/to/repository`  - **Check out a repository** --- It Creates a working copy of a local repository.
+
+* `git remote -v` - It Displays the List all currently configured remote repositories.
+
+* `git checkout -b <branchname>` **Branches** -- It Creates a new branch and switch to it.
+
+* `git branch` It Lists all the branches in your repo, and also tell you what branch you're currently in.
+
+* `git checkout <branchname>`  it Switches from one branch to another.
+
+* `git branch -d <branchname>` it Deletes the feature branch:
+
+* `git push origin <branchname>` it Pushes the branch to your remote repository, so others can use it.
+
+* `git push --all origin` it Pushes all branches to your remote repository:
+
+* `git pull origin master` it will pull changes from the origin remote, master branch and merge them to the local checked-out branch.
+
+Note :- By doing so Sometimes Vim editor opens , Command is `:wq` ":" enter ,"w" write , "q" save and quit.
+
+* `git merge <branchname>` it is used to To merge a different branch into your active branch:
