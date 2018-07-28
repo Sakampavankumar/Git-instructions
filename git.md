@@ -1,15 +1,22 @@
-# What is Git ??
-Git is Created by **_Linus Trovaldus_**.(responsible for the linux kernel.)
-Git is a version control system (VCS). Git is a tool/software like your IDE or VLC player. It is not a programming language.It is a general tool.Chances For Hiring In a Company will be increased When u Mentioned Git ON ur Resumes.
+# **What is Git ??**
+#### Git is Created by **_Linus Trovaldus_**.(responsible for the linux kernel.)
+##### Git is a version control system (VCS). Git is a tool/software like your IDE or VLC player. It is not a programming language.It is a general tool.Chances For Hiring In a Company will be increased When u Mentioned Git ON ur Resumes.
+* Image of the **_Linus Trovaldus_** Is Shown Below.
+
+ * ( He is the Creator, and for a long time, principal developer of the Linux kernel, which became the kernel for operating systems such as the Linux operating system, Android, and Chrome OS. **He also created the distributed revision control system Git**)
+![LinusTrovaldus](Linustrovalds.jpg)
+
 # What Git Does ??
 There are two main Reasons to Learn GIT.
 1. Track changes to your code .
 2. Save your code to the cloud .
 
 # What is GitHub ??
-Github is not the same as git. Github is a website/platform while git is a tool.
-For Ex:- Git or Camera is just the tool, But Instagram or GitHub is the website.
-**Github allows you to safely store your code in the cloud. And Also U can Share Your Code With Others.** Other websites such as gitlab, bitbucket which are similar to Github also exists . **Companies love it when you have a github profile and they can see your work before even calling you for an interview.**
+The Term Git & Github are not same. Github is a website/platform while git is a tool/Software.
+For Ex:- *Git or Camera is just the tool, But Instagram or GitHub is the website.*
+**Github allows you to safely store your code in the cloud. And Also U can Share Your Code With Others.**
+
+There Are also Other websites such as gitlab, bitbucket which are similar to Github also exists . **Companies love it when you have a github profile and they can see your work before even calling you for an interview.**
 * Now the Question Arises We Can do the same from Google Drive or DropBox, But the Solution is It Is Designed for special purpose(It even Track the record of code that u wrote 5 years ago. And what is it.)
 
 ### **Installation Steps For Git and GitHub , How to Create Repository, Add And Commit Your Code And How Push It On GitHub Using Git.**
@@ -42,9 +49,9 @@ For Ex:- Git or Camera is just the tool, But Instagram or GitHub is the website.
 
 ![Installation](6th.PNG)
 
-* Now Ur Git has Installed SuccessFully.
+* **Now Ur Git has Installed SuccessFully.**
 
-##### 2. **A GitHub Account** . If you don't have Account on GitHub,Create it By [Clicking here.](https://github.com/join) Make sure your username is professional. Note:- *coolsmartboy1994 or dhinchakpooja does not work.*
+##### 2. **A GitHub Account** . If you don't have Account on GitHub,Create it By [Clicking here.](https://github.com/join) Make sure your username is professional (Just similar like creating an account on instagram or on facebook,also verify your email and mobile no.)  Note:- *coolsmartboy1994 or dhinchakpooja does not work.*
 
 
 #### After Creating Account and Signing In, U Just have to **Create New Repository on Github**.
@@ -58,7 +65,7 @@ For Ex:- Git or Camera is just the tool, But Instagram or GitHub is the website.
 
 ![new repo1](newrepo1.PNG)
 
-4. Enter the repository name you want to set. Remember, There are some conventions to naming the repositories . When you enter the name wait for a while until the green tick comes as shown in the image .
+4. Enter the repository name you want to set. **Remember, There are some conventions to naming the repositories** . When you enter the name wait for a while until the green tick comes as shown in the image, Description field is optional.
 
 5. Then you can Click on the green **create Repository** button. (As shown Below)
 
@@ -66,9 +73,9 @@ For Ex:- Git or Camera is just the tool, But Instagram or GitHub is the website.
 
 ![newrepo3](newrepo3.PNG)
 
-7. Now You **Succesfully** created a New Repository on GitHub .This Github Repo is often referred to as Remote repo. It Is Called So Because it is not close to you, it is remote, it is on the cloud.Every project needs one remote repo for itself.
+7. Now You **Succesfully** created a New Repository on GitHub .**This Github Repo is often referred to as Remote repo**. It Is Called So Because it is not close to you, it is remote, it is on the cloud.Every project needs one remote repository for itself.
 
-8. Now we will see how we can **_push_** our data into the Repository .
+8. Now we will see how we can **_push_** our data from Local Repository(The one which contains your project file into the system) into the Remote Repository (The one which you created online on GitHub).
 
 ## It Can Be Done by Using Git.
 
@@ -78,29 +85,29 @@ For Ex:- Git or Camera is just the tool, But Instagram or GitHub is the website.
  ![git bash](git1.PNG)
 3. The First two commands you need to run are just to get youself registered on Git.
 ```   
- git config --global.user "Your GitHub UserName"
+ git config --global user.name "Your GitHub UserName"
 
  git config --global user.email "Your Valid Email-Id"
 ```
 ![git2](git2.PNG)    
 Note:-  **Make sure the username and email you entered are  Github registered** (_not necessary but makes work easy_)
 
-4. Now you need to direct your Git to **The designatined folder In Which Project Related Files Are Present Which u wanna to Push On Github Remote Repository is Termed as _Local Repository_ .**  For that we use the ```cd "path"```  command .
+4. Now you need to direct your Git Bash to **The designated folder(Local Repository) In Which Project Related Files or your Assignments Are Present Which u want to Push On Github Remote Repository .**  For that we use the ```cd "path"```  command (Change Directory).
    In the double quotes you need to enter the full path of your Local Repository.
 
    ![git path](git3.PNG)
 
-5.  Now that we have reached at our project folder(Local Repository) the first thing  we need to do is  initialise An Empty Repository (as .git) in the Local Repository (Project Folder) .`git init` just like git k folder mein greh pravesh krna.
+5.  Now we have reached at our project folder(Local Repository) the first thing  we need to do is  initialise An Empty Repository (as .git) in the Local Repository (Project Folder) .`git init` just like git k folder mein greh pravesh krna.
 ```
 git init
 ```   
 ![gitinit](git4.PNG)
 
-By Using this `git init` command, It will make a .git folder in your Local Repository.(Git creates a hidden folder called .git inside a folder that you want to track. Just this much makes a folder into a git repository.)As u can See Below.
+By Using this `git init` command, It will make a .git folder in your Local Repository.(Git creates a hidden folder called .git inside a folder that you want to track. Just this much makes a folder into a git repository.) and creates a Master Branch for Git To track the Files. As u can See Below.
 
 ![gitnew](git5.PNG)
 
-6 . Now that we have created the git folder . We will now add the files to be pushed , It can be done in two ways:
+6 . Till Now we have created the .git folder . Now We have to add the files , It can be done in two ways:
 * Using Selectively Approach.(In case u Wanna to Add Only a Specific Files out of bunch of many Files Present in ur local repository.)
 ```python
 git add filename
@@ -113,7 +120,7 @@ git add .
 
 ![git add . ](git6.PNG)
 
-8 . Once we have added the files in repo, the next thing we need to do is commit these changes By using `git commit` command and provide a message with commit .Commits are like check points or versions of your software.Even a new single line added to your code can count as a new version.So after you add the file you need to do a commit to make a version out of it.
+8 . Once we have added the files in repo, the next thing we need to do is commit these changes By using `git commit` command and provide a message with commit .Commits are like check points or versions of your software.Even a new single line added to your code can count as a new version.So after you add the file you need to do a commit to make a version out of it.	Commit changes to head (but not yet to the remote repository):
 Let's create the first commit or first version of our project:
 ```python
 
@@ -123,26 +130,29 @@ git commit -m "your commit message"
 **Remember:** _The commit message should be a meaningful one ._  Like:-
 1. The Bug is resolved.
 2. Code has been Improved.
-3. Additional Feature (also mention it) are added.
+3. Additional Features are added (Mention it).
+4. Files Are added via Upload.
 
 ![git commit](git7.PNG)
 
-*9*.  Next we will connect our GitHub Remote Repo with this project (Local Repository)using the link given to us on the github page .(Simply Mapping It.)
+*9*.  Next we will connect our GitHub Remote Repo with Local Repository using the link given to us on the github page. (Just Like providing the path where this data is to be stored or Simply Mapping It.)
 
  ![github link](git8.PNG)
  **Copy the blue highlighted part**
 
-10 . Next we will use the HTTPS URI Link to Map or to Link our project(Local Repository) to Github(Remote Repository) .
+10 .If you haven't connected your local repository to a remote server, add the server to be able to push to it: For this we will use the HTTPS Url Link to Map or to Link our Local Repository to Remote Repository.
 
-*11*. For that we will use `git remote add origin ** paste ur copied URI Link here**` command.
+*11*. For that we will use `git remote add origin 'paste your copied URI Link here'` command.
 ```python
-git remote add origin ** paste here**
+git remote add origin 'paste that Copied Link here'
 
 ```
 
 ![git remote add](git9.PNG)
 
-12 . The last step is to **_push_** the changes to the repository.And For that We will use `git push origin master` command.
+12 . The last step is to **_push_** the Project Files to the Remote repository.And For that We will use `git push origin master` command. It Sends changes to the master branch of your remote repository:
+
+**Note :- At this Stage you must have internet connection connected with your system otherwise it will throw an error _host could not resolved_ so make sure net has connected.**
   ```python
 
 git push origin master
@@ -151,7 +161,7 @@ git push origin master
 ![git ](git10.PNG)
 
 
-13 . If everything you have done is correct and followed the Steps correctly your github repository should have been updated.,**Simply Refresh ur Browser and u will see Files are Added to GitHUB Remote repo From Local Repo.**
+13 . If everything you have done is correct and followed the Steps correctly your github repository should have been updated.(Sometimes it would accept username and password then simply after providing username nd password files are uploaded),**Now Simply Refresh ur Browser and u will see that the Files are Added to GitHUB Remote repo From Local Repo.**
 
 ![gitrepo](git11.PNG)
 _It will shows something like this_
@@ -178,7 +188,8 @@ git log #tells the log of your commits
 ```
 ![gitlog](gitlog.PNG)
 
-*2*.`git status` it is a very useful command which tells us the status of the file which is being tracked(added)or not.The command tells you the current state of your project. It is like a report card of your project.
+*2*.`git status` it Lists the files you've changed and those you still need to add or commit:
+it is a very useful command which tells us the status of the file which is being tracked(added)or not.The command tells you the current state of your project. It is like a report card of your project.
 You will discover more about it as you start using git more and more.
 ```python
 
@@ -188,7 +199,7 @@ git status # used to know the status of the files being tracked or not
 ![git status](gitstatus.PNG)
 * now add more files to our project like: new.txt, main.txt(`git add new.txt`,`git add main.txt`)
 * Also add some content in ur previous project files and the newly added files main.txt and new.txt*
-* Now run the git status command,git will track the modied file too . now u have to again commit it via providing meaning message that file is modified .
+* Now run the git status command,git will track the modified files too . now u have to again commit it via providing meaning message that file is modified .
 
 **Please note that you have to add both new and modified files before you can make a new commit or version. That is you will need to tell git what all files are a part of the commit/version everytime. This is super important!!**
 
@@ -204,3 +215,27 @@ git status # used to know the status of the files being tracked or not
 * `git log` - See commit/version history of the project
 * `git remote add origin 'Paste your link for remote repo here'` to add the link btw remote repo and local repo.
 * `git push origin master` - To push your code ,your project project file to Remote repo from local repo.
+
+## Additional Commands (Branching , Cloning , Merging Pull Requests)..
+
+* `git clone /path/to/repository`  - **Check out a repository** --- It Creates a working copy of a local repository.
+
+* `git remote -v` - It Displays the List all currently configured remote repositories.
+
+* `git checkout -b <branchname>` **Branches** -- It Creates a new branch and switch to it.
+
+* `git branch` It Lists all the branches in your repo, and also tell you what branch you're currently in.
+
+* `git checkout <branchname>`  it Switches from one branch to another.
+
+* `git branch -d <branchname>` it Deletes the feature branch:
+
+* `git push origin <branchname>` it Pushes the branch to your remote repository, so others can use it.
+
+* `git push --all origin` it Pushes all branches to your remote repository:
+
+* `git pull origin master` it will pull changes from the origin remote, master branch and merge them to the local checked-out branch.
+
+Note :- By doing so Sometimes Vim editor opens , Command is `:wq` ":" enter ,"w" write , "q" save and quit.
+
+* `git merge <branchname>` it is used to To merge a different branch into your active branch:
