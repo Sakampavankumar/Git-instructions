@@ -6,7 +6,8 @@
 
 * **Contributed By - [Ishan Vaid](https://github.com/Ishanvaid9)**
 
-* **Contributed By - [Rohit Malhotra](https://github.com/rohitmalhotra1420)**
+* **Contributed By - [Nitika Sharma](https://github.com/nitikasharma9)**
+
 
 ## Our Objective is to Make a User Guide For those Who are totally new to the Term Git or Github And wanna to Learn Git and Github from Scrap. After Following the instructon and Installation Guide, u Get a Good knowledge about what the Git and Github is.
 
