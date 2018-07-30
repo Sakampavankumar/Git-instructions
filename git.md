@@ -4,7 +4,8 @@
 * Image of the **_Linus Trovaldus_** Is Shown Below.
 
  * ( He is the Creator, and for a long time, principal developer of the Linux kernel, which became the kernel for operating systems such as the Linux operating system, Android, and Chrome OS. **He also created the distributed revision control system Git**)
-![LinusTrovaldus](Linustrovalds.jpg)
+
+![LinusTrovaldus](Screenshots/Linustrovalds.jpg)
 
 # What Git Does ??
 There are two main Reasons to Learn GIT.
@@ -24,30 +25,30 @@ There Are also Other websites such as gitlab, bitbucket which are similar to Git
 ## Pre-requisites (Basic Requirements.)
 ##### 1. **Git Installed In your System**. To Install Git [Click here.](https://git-scm.com/) U Will See below, what appears Next and what we Have to Do Next.
 
-![git download](git.PNG)
+![git download](Screenshots/git.PNG)
 * After Downloading Simply Run the setup file, And click **Next**
 
-![git file](1st.PNG)
+![git file](Screenshots/1st.PNG)
 
 * Check 2nd checkbox as shown and click **Next**
 
-![checkbox](2nd.PNG)
+![checkbox](Screenshots/2nd.PNG)
 
 * Check with **_use the native window secure channel library_** and click **Next**
 
-![windowcheckbox](3rd.PNG)
+![windowcheckbox](Screenshots/3rd.PNG)
 
 * Check with **_use MinTTY_** and click **Next**
 
-![checkboxlast](4th.PNG)
+![checkboxlast](Screenshots/4th.PNG)
 
 * Check first two checkbox and click **Next**
 
-![checkboxx](5th.PNG)
+![checkboxx](Screenshots/5th.PNG)
 
 * After That Installation process Start, Wait for Complete setup To Finish.
 
-![Installation](6th.PNG)
+![Installation](Screenshots/6th.PNG)
 
 * **Now Ur Git has Installed SuccessFully.**
 
@@ -58,12 +59,12 @@ There Are also Other websites such as gitlab, bitbucket which are similar to Git
 
 1. Open your Github account . You will see a page somewhat like this .
 
-![new repository](newrepo.PNG)
+![new repository](Screenshots/newrepo.PNG)
 2. Click on **Start Project** Button to create a new project repository.Or you can also click on the **new repository** as shown in the bottom corner of the image to Create a Repo.
 
 3. Once you have clicked you'll be directed to this page.
 
-![new repo1](newrepo1.PNG)
+![new repo1](Screenshots/newrepo1.PNG)
 
 4. Enter the repository name you want to set. **Remember, There are some conventions to naming the repositories** . When you enter the name wait for a while until the green tick comes as shown in the image, Description field is optional.
 
@@ -71,7 +72,7 @@ There Are also Other websites such as gitlab, bitbucket which are similar to Git
 
 6. Then you will be Redirected to the Next Page.
 
-![newrepo3](newrepo3.PNG)
+![newrepo3](Screenshots/newrepo3.PNG)
 
 7. Now You **Succesfully** created a New Repository on GitHub .**This Github Repo is often referred to as Remote repo**. It Is Called So Because it is not close to you, it is remote, it is on the cloud.Every project needs one remote repository for itself.
 
@@ -82,30 +83,30 @@ There Are also Other websites such as gitlab, bitbucket which are similar to Git
 1. Once you have installed Git on your system we can push our projects through it.
 
 2. Open Git Bash and The Window Will Appears Something like this.
- ![git bash](git1.PNG)
+ ![git bash](Screenshots/git1.PNG)
 3. The First two commands you need to run are just to get youself registered on Git.
 ```   
  git config --global user.name "Your GitHub UserName"
 
  git config --global user.email "Your Valid Email-Id"
 ```
-![git2](git2.PNG)    
+![git2](Screenshots/git2.PNG)    
 Note:-  **Make sure the username and email you entered are  Github registered** (_not necessary but makes work easy_)
 
 4. Now you need to direct your Git Bash to **The designated folder(Local Repository) In Which Project Related Files or your Assignments Are Present Which u want to Push On Github Remote Repository .**  For that we use the ```cd "path"```  command (Change Directory).
    In the double quotes you need to enter the full path of your Local Repository.
 
-   ![git path](git3.PNG)
+   ![git path](Screenshots/git3.PNG)
 
 5.  Now we have reached at our project folder(Local Repository) the first thing  we need to do is  initialise An Empty Repository (as .git) in the Local Repository (Project Folder) .`git init` just like git k folder mein greh pravesh krna.
 ```
 git init
 ```   
-![gitinit](git4.PNG)
+![gitinit](Screenshots/git4.PNG)
 
 By Using this `git init` command, It will make a .git folder in your Local Repository.(Git creates a hidden folder called .git inside a folder that you want to track. Just this much makes a folder into a git repository.) and creates a Master Branch for Git To track the Files. As u can See Below.
 
-![gitnew](git5.PNG)
+![gitnew](Screenshots/git5.PNG)
 
 6 . Till Now we have created the .git folder . Now We have to add the files , It can be done in two ways:
 * Using Selectively Approach.(In case u Wanna to Add Only a Specific Files out of bunch of many Files Present in ur local repository.)
@@ -118,7 +119,7 @@ git add .
 ```
 7 . Here We will use the `git add .`command, But u can also try Selective approach too.
 
-![git add . ](git6.PNG)
+![git add . ](Screenshots/git6.PNG)
 
 8 . Once we have added the files in repo, the next thing we need to do is commit these changes By using `git commit` command and provide a message with commit .Commits are like check points or versions of your software.Even a new single line added to your code can count as a new version.So after you add the file you need to do a commit to make a version out of it.	Commit changes to head (but not yet to the remote repository):
 Let's create the first commit or first version of our project:
@@ -133,11 +134,11 @@ git commit -m "your commit message"
 3. Additional Features are added (Mention it).
 4. Files Are added via Upload.
 
-![git commit](git7.PNG)
+![git commit](Screenshots/git7.PNG)
 
 *9*.  Next we will connect our GitHub Remote Repo with Local Repository using the link given to us on the github page. (Just Like providing the path where this data is to be stored or Simply Mapping It.)
 
- ![github link](git8.PNG)
+ ![github link](Screenshots/git8.PNG)
  **Copy the blue highlighted part**
 
 10 .If you haven't connected your local repository to a remote server, add the server to be able to push to it: For this we will use the HTTPS Url Link to Map or to Link our Local Repository to Remote Repository.
@@ -148,7 +149,7 @@ git remote add origin 'paste that Copied Link here'
 
 ```
 
-![git remote add](git9.PNG)
+![git remote add](Screenshots/git9.PNG)
 
 12 . The last step is to **_push_** the Project Files to the Remote repository.And For that We will use `git push origin master` command. It Sends changes to the master branch of your remote repository:
 
@@ -158,12 +159,12 @@ git remote add origin 'paste that Copied Link here'
 git push origin master
 
 ```
-![git ](git10.PNG)
+![git ](Screenshots/git10.PNG)
 
 
 13 . If everything you have done is correct and followed the Steps correctly your github repository should have been updated.(Sometimes it would accept username and password then simply after providing username nd password files are uploaded),**Now Simply Refresh ur Browser and u will see that the Files are Added to GitHUB Remote repo From Local Repo.**
 
-![gitrepo](git11.PNG)
+![gitrepo](Screenshots/git11.PNG)
 _It will shows something like this_
 
 *14*.  In some Of the cases when you push the code, you might have to sign up .
@@ -186,7 +187,7 @@ git push origin master
  ```python
 git log #tells the log of your commits
 ```
-![gitlog](gitlog.PNG)
+![gitlog](Screenshots/gitlog.PNG)
 
 *2*.`git status` it Lists the files you've changed and those you still need to add or commit:
 it is a very useful command which tells us the status of the file which is being tracked(added)or not.The command tells you the current state of your project. It is like a report card of your project.
@@ -196,7 +197,7 @@ You will discover more about it as you start using git more and more.
 git status # used to know the status of the files being tracked or not
 
 ```
-![git status](gitstatus.PNG)
+![git status](Screenshots/gitstatus.PNG)
 * now add more files to our project like: new.txt, main.txt(`git add new.txt`,`git add main.txt`)
 * Also add some content in ur previous project files and the newly added files main.txt and new.txt*
 * Now run the git status command,git will track the modified files too . now u have to again commit it via providing meaning message that file is modified .
