@@ -4,7 +4,7 @@
 
 
 * **Contributed And Designed By - [Mukesh Dubey](https://github.com/MukeshDubey1420)**
-
+* **Contributed by - [Harshit Ahluwalia](https://github.com/harshitahluwalia7895 )**
 * **Contributed By:- [Ishan Vaid](https://github.com/Ishanvaid9)**
 
 * **Contributed By - [Nitika Sharma](https://github.com/nitikasharma9)**
