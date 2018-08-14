@@ -1,3 +1,14 @@
+In the programming world, it is necessary to understand and manage the versions of your code and projects that you create working hard day and night. In This Documentation  I will introduce you to **Git and GitHub**, one of the prominent and famous version control system used by most of the developers across the globe, some basic Git commands, and how to set up your local and remote repository on GitHub using the terminal of mac computer.
+
+## What is Git and GitHub?
+When it comes to Git and Github, most people get confused and think that both are more or less the same thing but, Git is a free and open source distributed version control system whereas GitHub is an online hosted platform for various services.
+
+![Git](Screenshots/gitgithub.png)
+
+Suppose, initially, you created a file say ABC.txt within a folder on your system. Using the concepts of version control, you can manage, track, commit changes, roll back to a previous safe state and much more easily. In the above diagram, the local file can be converted to trackable files i.e a version control system using Git commands. Why is version control Important?
+
+While programming and as a human, it is our tendency to make mistakes and then land up ourselves in a  position from where coming back to original state is not possible and we are lost. Using version control, we can track and control our huge files full of codes very easily and quickly
+
 # **What is Git ??**
 #### Git is Created by **_Linus Trovaldus_**.(responsible for the linux kernel.)
 ##### Git is a version control system (VCS). Git is a tool/software like your IDE or VLC player. It is not a programming language.It is a general tool.Chances For Hiring In a Company will be increased When u Mentioned Git ON ur Resumes.
@@ -78,7 +89,7 @@ There Are also Other websites such as gitlab, bitbucket which are similar to Git
 
 8. Now we will see how we can **_push_** our data from Local Repository(The one which contains your project file into the system) into the Remote Repository (The one which you created online on GitHub).
 
-## It Can Be Done by Using Git.
+## It Can Be Done by Using Basic Git Commands.
 
 1. Once you have installed Git on your system we can push our projects through it.
 
@@ -99,6 +110,10 @@ Note:-  **Make sure the username and email you entered are  Github registered** 
    ![git path](Screenshots/git3.PNG)
 
 5.  Now we have reached at our project folder(Local Repository) the first thing  we need to do is  initialise An Empty Repository (as .git) in the Local Repository (Project Folder) .`git init` just like git k folder mein greh pravesh krna.
+
+                or
+
+This command is used to create a git local repository of your file and then you can start tracking the changes you make in the future. This command initializes an empty git repository inside the same directory that you are currently in with .git extension eg. of code on the terminal
 ```
 git init
 ```   
